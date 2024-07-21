@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors, selector specificity</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <p>Tag</p>
+
+    <div class="class-selector">Class</div>
+
+    <div id="id-selector">ID</div>
+
+    <div data-custom="true">Attribute</div>
+
+    <div class="parent">
+        <div class="child">Nested Selector</div>
+    </div>
+
+    <div class="parent">
+        Parent
+        <div class="direct-child">Child Selector</div>
+    </div>
+
+    <ul>
+        <li>Sequence Selector</li>
+    </ul>
+
+    <div class="class-combination" data-custom="value">Combination Selector</div>
+
+    <div id="combination-tag_id">Combination of Tag and ID</div>
+
+    <div class="class-and-attribute" data-another="another-value">Combination of Class and Attribute</div>
+</body>
+
+</html>

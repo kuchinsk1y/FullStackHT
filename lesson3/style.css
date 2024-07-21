@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgb(203, 206, 207);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1250px;
+  padding: 15px;
+}
+
+.header-hr,
+.footer-hr {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.background-banner {
+  background-image: url("./images/banner-code.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  color: white;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.background-banner h2 {
+  font-size: 60px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-img {
+  width: 75px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: blue;
+}
+
+.nav-item a:hover {
+  color: rgb(15, 15, 146);
+  font-weight: 500;
+}
+
+.main-content {
+  padding: 20px;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.main-title {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.main-info {
+  border: 2px solid;
+  padding: 15px;
+}
+
+.main__list-types {
+  margin-left: 45px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.main__list-types li {
+  margin: 5px;
+}
+
+.main__first-content,
+.main__second-content,
+.main__third-content {
+  margin-bottom: 15px;
+  border-bottom: 1px solid;
+}
+
+.mb {
+  margin-bottom: 15px;
+}
+
+.form-width {
+  max-width: 650px;
+  margin: auto;
+}
+
+.p-2 {
+  padding: 8px;
+}
+
+.form-width label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-width .input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+footer h3 {
+  margin-top: 25px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.btn-submit {
+  background-color: rgb(38, 102, 38);
+}
+
+.btn-reset {
+  background-color: rgb(247, 191, 7);
+}
+
+.btn {
+  background-color: rgb(6, 63, 221);
+}
+
+.main-list_images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.block-img {
+  margin-bottom: 25px;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="navbar">
+                <div class="logo">
+                    <img src="../images/Hillel-Logo.png" alt="Hillel-Logo" class="logo-img">
+                </div>
+                <nav class="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="../index.html">Home</a></li>
+                        <li class="nav-item"><a href="./about.html">About</a></li>
+                        <li class="nav-item"><a href="./articles.html">Articles</a></li>
+                        <li class="nav-item"><a href="./contacts.html"><b>Contacts</b></a></li>
+                        <li class="nav-item"><a href="./gallery.html">Gallery</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <a href="./contacts.html#headerContacts"> <!-- Hyperlink to the "Contacts" page to the header tag -->
+                    Hyperlink to the "Contacts" page to the header tag
+                </a>
+            </div>
+            <hr class="header-hr">
+        </header>
+    
+        <main>
+            <div class="main-title">
+                Form
+            </div>
+            <div>
+                The <strong>form</strong> tag is used to create an <strong>HTML</strong> form for user <u>input</u>.
+                <br>
+                The <strong>form</strong> element can contain one or more of the following form elements:
+                <ul class="main__list-types">
+                    <li>&lt;input&gt;</li>
+                    <li>&lt;textarea&gt;</li>
+                    <li>&lt;button&gt;</li>
+                    <li>&lt;select&gt;</li>
+                    <li>&lt;option&gt;</li>
+                    <li>&lt;optgroup&gt;</li>
+                    <li>&lt;fieldset&gt;</li>
+                    <li>&lt;legend&gt;</li>
+                    <li>&lt;label&gt;</li>
+                </ul>
+            </div>
+            <h3>User form:</h3>
+            <form action="/submit-data" method="post" class="form-width" id="headerContacts">
+                <fieldset class="p-2">
+                    <legend>Personal info</legend>
+                    <div class="mb">
+                        <label for="firstname">First Name</label>
+                        <input type="text" class="input" id="firstname" name="firstname" placeholder="Firstname..">
+                    </div>
+                    <div class="mb">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" class="input" id="lastname" name="lastname" placeholder="Lastname..">
+                    </div>
+                    <div class="mb">
+                        <label for="email">Email</label>
+                        <input type="email" class="input" id="email" name="email" placeholder="Email..">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" class="input" id="password" name="password" placeholder="Password..">
+                    </div>
+                </fieldset>
+                <fieldset class="mb p-2">
+                    <legend>Add</legend>
+                    <div class="mb">
+                        <label for="checkbox">Checkbox</label>
+                        <input type="checkbox" id="checkbox" name="checkbox">
+                    </div>
+                    <div class="mb">
+                        <label for="radio">Radio</label>
+                        <input type="radio" id="radio" name="radio">
+                    </div>
+                    <div class="mb">
+                        <label for="number">Number</label>
+                        <input type="number" class="input" id="number" name="number" placeholder="Number..">
+                    </div>
+                    <div class="mb">
+                        <label for="date">Date</label>
+                        <input type="date" class="input" id="date" name="date">
+                    </div>
+                    <div class="mb">
+                        <label for="car">Car</label>
+                        <select id="car" class="input" name="car">
+                            <optgroup label="German Cars">
+                                <option value="bmw">BMW</option>
+                                <option value="audi">Audi</option>
+                                <option value="porsche">Porsche</option>
+                            </optgroup>
+                            <optgroup label="Korean Cars">
+                                <option value="kia">Kia</option>
+                                <option value="hyundai">Hyundai</option>
+                                <option value="genesis">Genesis</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="message">Textarea:</label>
+                        <div>
+                            <textarea id="message" class="input" name="message"></textarea>
+                        </div>
+                    </div>
+                </fieldset>
+                <div>
+                    <button type="submit" class="btn-submit">Send</button>
+                    <button type="reset" class="btn-reset">Reset Form</button>
+                    <button type="button" class="btn">Js</button>
+                </div>
+            </form>
+        </main>
+    
+        <footer>
+            <hr>
+            <h3>Footer</h3>
+            <div class="footer-content">
+                <h4>Hillel &copy; 2024</h4>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    <br>
+                    Corporis doloremque, facere mollitia eveniet quidem distinctio?
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

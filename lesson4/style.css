@@ -1,0 +1,39 @@
+p {
+  color: blue;
+}
+
+.class-selector {
+  color: green;
+}
+
+#id-selector {
+  color: red;
+}
+
+[data-custom] {
+  color: orange;
+}
+
+.parent .child {
+  color: purple;
+}
+
+.parent > .direct-child {
+  color: pink;
+}
+
+ul li {
+  color: brown;
+}
+
+div .class-combination[data-custom="value"] {
+  color: gray;
+}
+
+div #combination-tag_id {
+  color: teal;
+}
+
+.class-and-attribute[data-another="another-value"] {
+  color: olive;
+}
