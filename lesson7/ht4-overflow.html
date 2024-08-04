@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ht4-overflow.css">
+</head>
+
+<body>
+    <h1>Експерименти з overflow</h1>
+
+    <div class="container overflow-visible">
+        <h2>overflow: visible</h2>
+        <div class="content">
+            Вміст цього контейнера виходить за межі контейнера. При використанні overflow: visible, вміст не обрізається
+            і продовжує бути видимим за межами контейнера.
+        </div>
+    </div>
+
+    <div class="container overflow-hidden">
+        <h2>overflow: hidden</h2>
+        <div class="content">
+            Вміст цього контейнера виходить за межі контейнера. При використанні overflow: hidden, вміст, що перевищує
+            розміри контейнера, буде обрізано і не буде видимим.
+        </div>
+    </div>
+
+    <div class="container overflow-scroll">
+        <h2>overflow: scroll</h2>
+        <div class="content">
+            Вміст цього контейнера виходить за межі контейнера. При використанні overflow: scroll, з'являться смуги
+            прокрутки, як вертикальна, так і горизонтальна, незалежно від того, чи потрібні вони.
+        </div>
+    </div>
+
+    <div class="container overflow-auto">
+        <h2>overflow: auto</h2>
+        <div class="content">
+            Вміст цього контейнера виходить за межі контейнера. При використанні overflow: auto, з'являться смуги
+            прокрутки тільки тоді, коли це необхідно, тобто коли вміст перевищує розміри контейнера.
+        </div>
+    </div>
+</body>
+
+</html>
