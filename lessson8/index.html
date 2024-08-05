@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ДЗ 8.1. Закріплюємо Float Layout</title>
+</head>
+
+<body>
+    <style>
+        .container {
+            width: 100%;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .box {
+            height: 50px;
+            width: 200px;
+            background-color: gray;
+        }
+
+        .equal-space {
+            margin-right: 10px;
+        }
+
+        .float-left {
+            float: left;
+        }
+
+        .float-right {
+            float: right;
+            margin-left: 20px;
+        }
+
+        .square {
+            width: 200px;
+            height: 100px;
+            background-color: gray;
+            float: left;
+            margin-right: 20px;
+        }
+
+        .container-fourth {
+            float: right;
+            margin-bottom: 20px;
+        }
+
+        .right-blocks {
+            float: right;
+            height: 100px;
+        }
+
+        .right-blocks .box {
+            width: 200px;
+            height: 45px;
+            margin-bottom: 10px;
+        }
+
+        .container-center {
+            width: 100%;
+            overflow: hidden;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .fixed-container {
+            width: 500px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .fixed-container .square {
+            width: 200px;
+            height: 100px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .fixed-container .right-blocks {
+            float: left;
+            height: 100px;
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="box float-left large-space"></div>
+            <div class="box float-right"></div>
+        </div>
+
+        <div class="container">
+            <div class="box float-left"></div>
+            <div class="box float-right"></div>
+            <div class="box float-right"></div>
+            <div class="box float-right"></div>
+        </div>
+
+        <div class="container">
+            <div class="box float-left equal-space"></div>
+            <div class="box float-left"></div>
+            <div class="box float-right"></div>
+            <div class="box float-right"></div>
+        </div>
+
+        <div class="container-fourth">
+            <div class="square"></div>
+            <div class="right-blocks">
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+
+        <div class="container-center">
+            <div class="fixed-container">
+                <div class="square"></div>
+                <div class="right-blocks">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
